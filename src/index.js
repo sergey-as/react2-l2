@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const someFn = () => 54321
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App test={123} fn={someFn}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
